@@ -7,7 +7,7 @@
             border:5px solid;
         }
         .fila {
-            background-color: #999;
+            background-color: blue;
             display: table;
         }
         .recuadro {
@@ -17,7 +17,7 @@
         }
         .fila:nth-child(odd) .recuadro:nth-child(even),
         .fila:nth-child(even) .recuadro:nth-child(odd) {
-            background-color: white;
+            background-color: red;
         }
     </style>
 </head>
@@ -30,7 +30,7 @@
 </html>
  
 <script>
-const tamano=1000;
+const tamano=8;
 const tablero=document.getElementById("tablero");
 for (let i=0; i<tamano; i++) {
  
